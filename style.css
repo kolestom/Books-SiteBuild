@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 1rem;
+    color: #fbf7f3;
+    background-color: #1a24fb;
+    z-index: 11;
+}
+
+main {
+    padding: 4rem 0;
+    background-color: #fbf7f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px 30px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+/*  */
+.number {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #1a24fb;
+    font-weight: 500;
+}
+
+.textContainer {
+    border: 1px solid #1a24fb;
+    color: #1a24fb;
+    padding: 2rem 1.5rem;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.author {
+    font-size: 10px;
+}
+
+.title {
+    padding: 2rem 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 13px;
+}
+
+.button {
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1a24fb;
+    background-color: #fbf7f3;
+}
+
+.button span {
+    padding: 2px 5px;
+}
+
+.button:hover {
+    color: #fbf7f3;
+    background-color: #1a24fb;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* html {
+        font-size: 10px;
+    } */
+
+
+    /* header p {
+        font-size: 16px;
+    }
+
+    .cardNbr {
+        left: 18rem;
+    }
+    
+    button {
+        left: 10rem;
+    } */
+}
+
+@media screen and (max-width: 420px) {
+
+    /* html {
+        font-size: 10px;
+    } */
+
+
+    /* header p {
+        font-size: 16px;
+    } */
+    
+    /* .card {
+        max-width: 350px;
+    }
+
+    .cardNbr {
+        left: 16rem;
+    }
+    
+    button {
+        left: 8rem;
+    } */
+
+    
+    
+}
